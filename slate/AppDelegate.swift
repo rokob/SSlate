@@ -10,15 +10,17 @@ import UIKit
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
-
   var window: UIWindow?
+
+  let appDependencies = AppDependencies()
 
   func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
     self.window = UIWindow(frame: UIScreen.mainScreen().bounds)
 
-    var rootVC = ViewController()
+    let rootNavController = RootNavigationController()
+    self.window!.rootViewController = rootNavController
 
-    self.window!.rootViewController = rootVC
+    appDependencies.installRootViewControllerIntoWindow(window!)
 
     self.window!.backgroundColor = UIColor.whiteColor()
     self.window!.makeKeyAndVisible()

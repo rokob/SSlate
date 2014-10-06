@@ -9,10 +9,27 @@
 /* Begin PBXBuildFile section */
 		867857AAE4814ACE9745A93E /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A5A0F82FB0894AAC84111CE0 /* libPods.a */; };
 		8744849719CE622E0099DEC6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8744849619CE622E0099DEC6 /* AppDelegate.swift */; };
-		8744849919CE622E0099DEC6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8744849819CE622E0099DEC6 /* ViewController.swift */; };
 		8744849E19CE622E0099DEC6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8744849D19CE622E0099DEC6 /* Images.xcassets */; };
 		874484A119CE622E0099DEC6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8744849F19CE622E0099DEC6 /* LaunchScreen.xib */; };
 		874484AD19CE622E0099DEC6 /* slateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874484AC19CE622E0099DEC6 /* slateTests.swift */; };
+		87857F8219D47032009B1F7C /* BetListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87857F8119D47032009B1F7C /* BetListInteractor.swift */; };
+		87BD32DE19E1FC0400553EF9 /* BetListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87BD32DC19E1FC0400553EF9 /* BetListViewController.swift */; };
+		87BD32DF19E1FC0400553EF9 /* BetListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 87BD32DD19E1FC0400553EF9 /* BetListViewController.xib */; };
+		87BD32E119E202ED00553EF9 /* BetListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 87BD32E019E202ED00553EF9 /* BetListTableViewCell.xib */; };
+		87BD32E319E207AE00553EF9 /* BetListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87BD32E219E207AE00553EF9 /* BetListTableViewCell.swift */; };
+		87BD32E519E24CA600553EF9 /* BetListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87BD32E419E24CA600553EF9 /* BetListPresenter.swift */; };
+		87BD32E719E24D1800553EF9 /* BetListModuleInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87BD32E619E24D1800553EF9 /* BetListModuleInterface.swift */; };
+		87BD32E919E24D9D00553EF9 /* BetListViewInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87BD32E819E24D9D00553EF9 /* BetListViewInterface.swift */; };
+		87BD32EB19E24E1200553EF9 /* BetListWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87BD32EA19E24E1200553EF9 /* BetListWireframe.swift */; };
+		87BD32EF19E24EC300553EF9 /* RootWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87BD32EE19E24EC300553EF9 /* RootWireframe.swift */; };
+		87BD32F119E24ED700553EF9 /* ViewControllerFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87BD32F019E24ED700553EF9 /* ViewControllerFactory.swift */; };
+		87BD32F319E2517800553EF9 /* BetListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87BD32F219E2517800553EF9 /* BetListItem.swift */; };
+		87BD32F519E2519B00553EF9 /* BetListSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87BD32F419E2519B00553EF9 /* BetListSection.swift */; };
+		87BD32F719E251C100553EF9 /* BetListData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87BD32F619E251C100553EF9 /* BetListData.swift */; };
+		87BD32F919E25A7300553EF9 /* BetListDataCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87BD32F819E25A7300553EF9 /* BetListDataCollection.swift */; };
+		87BD32FC19E25ABA00553EF9 /* NSCalendar+CalendarAdditions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87BD32FB19E25ABA00553EF9 /* NSCalendar+CalendarAdditions.swift */; };
+		87BD32FE19E25B8700553EF9 /* AppDependencies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87BD32FD19E25B8700553EF9 /* AppDependencies.swift */; };
+		87BD330019E25CD500553EF9 /* RootNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87BD32FF19E25CD500553EF9 /* RootNavigationController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,12 +46,29 @@
 		8744849119CE622E0099DEC6 /* slate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = slate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8744849519CE622E0099DEC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8744849619CE622E0099DEC6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8744849819CE622E0099DEC6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8744849D19CE622E0099DEC6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		874484A019CE622E0099DEC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		874484A619CE622E0099DEC6 /* slateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = slateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		874484AB19CE622E0099DEC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		874484AC19CE622E0099DEC6 /* slateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = slateTests.swift; sourceTree = "<group>"; };
+		87857F8119D47032009B1F7C /* BetListInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BetListInteractor.swift; path = Modules/BetList/Logic/Interactor/BetListInteractor.swift; sourceTree = "<group>"; };
+		87BD32DC19E1FC0400553EF9 /* BetListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BetListViewController.swift; path = Modules/BetList/UI/View/BetListViewController.swift; sourceTree = "<group>"; };
+		87BD32DD19E1FC0400553EF9 /* BetListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = BetListViewController.xib; path = Modules/BetList/UI/View/BetListViewController.xib; sourceTree = "<group>"; };
+		87BD32E019E202ED00553EF9 /* BetListTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = BetListTableViewCell.xib; path = Modules/BetList/UI/View/BetListTableViewCell.xib; sourceTree = "<group>"; };
+		87BD32E219E207AE00553EF9 /* BetListTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BetListTableViewCell.swift; path = Modules/BetList/UI/View/BetListTableViewCell.swift; sourceTree = "<group>"; };
+		87BD32E419E24CA600553EF9 /* BetListPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BetListPresenter.swift; path = Modules/BetList/UI/Presenter/BetListPresenter.swift; sourceTree = "<group>"; };
+		87BD32E619E24D1800553EF9 /* BetListModuleInterface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BetListModuleInterface.swift; path = Modules/BetList/Interface/BetListModuleInterface.swift; sourceTree = "<group>"; };
+		87BD32E819E24D9D00553EF9 /* BetListViewInterface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BetListViewInterface.swift; path = Modules/BetList/UI/View/BetListViewInterface.swift; sourceTree = "<group>"; };
+		87BD32EA19E24E1200553EF9 /* BetListWireframe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BetListWireframe.swift; path = Modules/BetList/UI/Wireframe/BetListWireframe.swift; sourceTree = "<group>"; };
+		87BD32EE19E24EC300553EF9 /* RootWireframe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RootWireframe.swift; path = Common/View/RootWireframe.swift; sourceTree = "<group>"; };
+		87BD32F019E24ED700553EF9 /* ViewControllerFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewControllerFactory.swift; path = Common/View/ViewControllerFactory.swift; sourceTree = "<group>"; };
+		87BD32F219E2517800553EF9 /* BetListItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BetListItem.swift; path = Modules/BetList/UI/Presenter/BetListItem.swift; sourceTree = "<group>"; };
+		87BD32F419E2519B00553EF9 /* BetListSection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BetListSection.swift; path = Modules/BetList/UI/Presenter/BetListSection.swift; sourceTree = "<group>"; };
+		87BD32F619E251C100553EF9 /* BetListData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BetListData.swift; path = Modules/BetList/UI/Presenter/BetListData.swift; sourceTree = "<group>"; };
+		87BD32F819E25A7300553EF9 /* BetListDataCollection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BetListDataCollection.swift; path = Modules/BetList/UI/Presenter/BetListDataCollection.swift; sourceTree = "<group>"; };
+		87BD32FB19E25ABA00553EF9 /* NSCalendar+CalendarAdditions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "NSCalendar+CalendarAdditions.swift"; path = "Common/Extensions/NSCalendar+CalendarAdditions.swift"; sourceTree = "<group>"; };
+		87BD32FD19E25B8700553EF9 /* AppDependencies.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDependencies.swift; sourceTree = "<group>"; };
+		87BD32FF19E25CD500553EF9 /* RootNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootNavigationController.swift; sourceTree = "<group>"; };
 		A5A0F82FB0894AAC84111CE0 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC803D7381834F0FAA9D6B7D /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -89,8 +123,11 @@
 		8744849319CE622E0099DEC6 /* slate */ = {
 			isa = PBXGroup;
 			children = (
+				87BD32EC19E24E9B00553EF9 /* Common */,
+				87857F7719D3AC98009B1F7C /* Modules */,
 				8744849619CE622E0099DEC6 /* AppDelegate.swift */,
-				8744849819CE622E0099DEC6 /* ViewController.swift */,
+				87BD32FD19E25B8700553EF9 /* AppDependencies.swift */,
+				87BD32FF19E25CD500553EF9 /* RootNavigationController.swift */,
 				8744849D19CE622E0099DEC6 /* Images.xcassets */,
 				8744849F19CE622E0099DEC6 /* LaunchScreen.xib */,
 				8744849419CE622E0099DEC6 /* Supporting Files */,
@@ -121,6 +158,124 @@
 				874484AB19CE622E0099DEC6 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		87857F7719D3AC98009B1F7C /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				87857F7819D3ACA3009B1F7C /* BetList */,
+			);
+			name = Modules;
+			sourceTree = "<group>";
+		};
+		87857F7819D3ACA3009B1F7C /* BetList */ = {
+			isa = PBXGroup;
+			children = (
+				87857F7B19D3ADFD009B1F7C /* Interface */,
+				87857F7919D3ADF1009B1F7C /* Logic */,
+				87857F7A19D3ADF8009B1F7C /* UI */,
+			);
+			name = BetList;
+			sourceTree = "<group>";
+		};
+		87857F7919D3ADF1009B1F7C /* Logic */ = {
+			isa = PBXGroup;
+			children = (
+				87857F7C19D3AEF0009B1F7C /* Interactor */,
+				87857F7D19D3AEF7009B1F7C /* Manager */,
+			);
+			name = Logic;
+			sourceTree = "<group>";
+		};
+		87857F7A19D3ADF8009B1F7C /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				87857F7E19D3AF37009B1F7C /* Presenter */,
+				87857F7F19D3AF3E009B1F7C /* View */,
+				87857F8019D3AF41009B1F7C /* Wireframe */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		87857F7B19D3ADFD009B1F7C /* Interface */ = {
+			isa = PBXGroup;
+			children = (
+				87BD32E619E24D1800553EF9 /* BetListModuleInterface.swift */,
+			);
+			name = Interface;
+			sourceTree = "<group>";
+		};
+		87857F7C19D3AEF0009B1F7C /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				87857F8119D47032009B1F7C /* BetListInteractor.swift */,
+			);
+			name = Interactor;
+			sourceTree = "<group>";
+		};
+		87857F7D19D3AEF7009B1F7C /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Manager;
+			sourceTree = "<group>";
+		};
+		87857F7E19D3AF37009B1F7C /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				87BD32E419E24CA600553EF9 /* BetListPresenter.swift */,
+				87BD32F219E2517800553EF9 /* BetListItem.swift */,
+				87BD32F419E2519B00553EF9 /* BetListSection.swift */,
+				87BD32F619E251C100553EF9 /* BetListData.swift */,
+				87BD32F819E25A7300553EF9 /* BetListDataCollection.swift */,
+			);
+			name = Presenter;
+			sourceTree = "<group>";
+		};
+		87857F7F19D3AF3E009B1F7C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				87BD32DC19E1FC0400553EF9 /* BetListViewController.swift */,
+				87BD32DD19E1FC0400553EF9 /* BetListViewController.xib */,
+				87BD32E019E202ED00553EF9 /* BetListTableViewCell.xib */,
+				87BD32E219E207AE00553EF9 /* BetListTableViewCell.swift */,
+				87BD32E819E24D9D00553EF9 /* BetListViewInterface.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		87857F8019D3AF41009B1F7C /* Wireframe */ = {
+			isa = PBXGroup;
+			children = (
+				87BD32EA19E24E1200553EF9 /* BetListWireframe.swift */,
+			);
+			name = Wireframe;
+			sourceTree = "<group>";
+		};
+		87BD32EC19E24E9B00553EF9 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				87BD32FA19E25A8A00553EF9 /* Extensions */,
+				87BD32ED19E24EA900553EF9 /* View */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+		87BD32ED19E24EA900553EF9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				87BD32EE19E24EC300553EF9 /* RootWireframe.swift */,
+				87BD32F019E24ED700553EF9 /* ViewControllerFactory.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		87BD32FA19E25A8A00553EF9 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				87BD32FB19E25ABA00553EF9 /* NSCalendar+CalendarAdditions.swift */,
+			);
+			name = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,6 +362,8 @@
 			files = (
 				874484A119CE622E0099DEC6 /* LaunchScreen.xib in Resources */,
 				8744849E19CE622E0099DEC6 /* Images.xcassets in Resources */,
+				87BD32DF19E1FC0400553EF9 /* BetListViewController.xib in Resources */,
+				87BD32E119E202ED00553EF9 /* BetListTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,8 +414,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8744849919CE622E0099DEC6 /* ViewController.swift in Sources */,
+				87BD32F919E25A7300553EF9 /* BetListDataCollection.swift in Sources */,
+				87BD32EF19E24EC300553EF9 /* RootWireframe.swift in Sources */,
+				87BD32E919E24D9D00553EF9 /* BetListViewInterface.swift in Sources */,
+				87BD32F519E2519B00553EF9 /* BetListSection.swift in Sources */,
+				87BD32F319E2517800553EF9 /* BetListItem.swift in Sources */,
+				87BD32EB19E24E1200553EF9 /* BetListWireframe.swift in Sources */,
+				87BD32E519E24CA600553EF9 /* BetListPresenter.swift in Sources */,
+				87BD32DE19E1FC0400553EF9 /* BetListViewController.swift in Sources */,
+				87BD32FE19E25B8700553EF9 /* AppDependencies.swift in Sources */,
 				8744849719CE622E0099DEC6 /* AppDelegate.swift in Sources */,
+				87857F8219D47032009B1F7C /* BetListInteractor.swift in Sources */,
+				87BD330019E25CD500553EF9 /* RootNavigationController.swift in Sources */,
+				87BD32E319E207AE00553EF9 /* BetListTableViewCell.swift in Sources */,
+				87BD32FC19E25ABA00553EF9 /* NSCalendar+CalendarAdditions.swift in Sources */,
+				87BD32F719E251C100553EF9 /* BetListData.swift in Sources */,
+				87BD32E719E24D1800553EF9 /* BetListModuleInterface.swift in Sources */,
+				87BD32F119E24ED700553EF9 /* ViewControllerFactory.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
